@@ -1,0 +1,56 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+
+
+#selecet-amount {
+    outline: 1px red solid;
+    background-color: rgb(175, 70, 70);
+}
+
+.container-one {
+    text-align: center;
+    background-image: url(images/cover1.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.container-one h1 {
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.container-one p {
+    color: white;
+    text-align: center;
+}
+
+.container-two {
+    text-align: center;
+}
+
+
+.button {
+    color: white;
+    font: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: tomato;
+    text-decoration: none;
+}
+
+.Amount h3 {
+    display: inline-block;
+    background-color: gainsboro;
+
+    height: 100px;
+    width: 100px;
+    outline: 1px black solid;
+}
