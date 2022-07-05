@@ -1,14 +1,45 @@
 body {
+
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
 
+span {
+
+    color: rgb(151, 34, 34);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 10px 5px;
+    margin-top: 100px;
+
+
+}
+
+body p {
+    font-size: 10px;
+}
 
 
 #selecet-amount {
-    outline: 1px red solid;
-    background-color: rgb(175, 70, 70);
+    outline: 2px rgb(207, 70, 93) solid;
+    background-color: rgba(194, 113, 126, 0.116);
+}
+
+#donate-food {
+    background-color: rgb(173, 186, 197);
+}
+
+#donate-family {
+    background-color: rgb(172, 150, 106);
+}
+
+#donate-education {
+    background-color: rgb(223, 190, 150);
 }
 
 .container-one {
@@ -34,13 +65,50 @@ body {
 
 .container-two {
     text-align: center;
+    margin-top: 50px;
 }
+
+.container-three {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container-four {
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.container-five {
+    text-align: center;
+}
+
+.half-width {
+    width: 40%;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+
+.half-width img {
+    width: 90%;
+    height: 100%;
+}
+
+.container-three div {
+    display: inline-block;
+    background-color: gainsboro;
+    height: 180px;
+    width: 180px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
 
 
 .button {
     color: white;
     font: 700;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 5px;
     background-color: tomato;
     text-decoration: none;
@@ -48,9 +116,17 @@ body {
 
 .Amount h3 {
     display: inline-block;
-    background-color: gainsboro;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    height: 80px;
+    width: 80px;
+}
 
-    height: 100px;
-    width: 100px;
-    outline: 1px black solid;
+.div-email {
+    display: flex;
+    height: 50%;
+    width: 30%;
+    padding-right: 100px;
+    background-color: rgba(255, 192, 203, 0.37);
+    padding: 30px 50px;
 }
