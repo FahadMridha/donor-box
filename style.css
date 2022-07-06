@@ -2,6 +2,7 @@ body {
 
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
+
     margin: 0px;
 }
 
@@ -29,6 +30,8 @@ footer {
 
 #donate-food {
     background-color: rgb(173, 186, 197);
+
+
 }
 
 #donate-family {
@@ -37,6 +40,13 @@ footer {
 
 #donate-education {
     background-color: rgb(223, 190, 150);
+}
+
+#subscribe-button {
+    background-color: rgba(226, 48, 17, 0.897);
+    color: white;
+    border: 0ch;
+    border-radius: 2px;
 }
 
 .container-one {
@@ -68,6 +78,10 @@ footer {
 .container-three {
     text-align: center;
     padding-top: 40px;
+}
+
+.container-three img {
+    padding-right: 100px;
 }
 
 .container-four {
@@ -119,11 +133,9 @@ footer {
     width: 80px;
 }
 
-.div-email {
-    display: flex;
-    height: 50%;
-    width: 30%;
-    padding-right: 100px;
+
+.from-group {
     background-color: rgba(255, 192, 203, 0.37);
-    padding: 30px 50px;
+    padding: 30px 40px;
+
 }
