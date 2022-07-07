@@ -6,6 +6,9 @@ body {
     margin: 0px;
 }
 
+
+
+
 span {
 
     color: rgb(151, 34, 34);
@@ -75,6 +78,10 @@ footer {
     margin-top: 50px;
 }
 
+.container-three div {
+    display: flex;
+}
+
 .container-three {
     text-align: center;
     padding-top: 40px;
@@ -136,6 +143,10 @@ footer {
 
 .from-group {
     background-color: rgba(255, 192, 203, 0.37);
-    padding: 30px 40px;
+    padding: 40px 60px;
+    width: 400px;
+    margin-left: 180px;
+    margin-top: 50px;
+
 
 }
